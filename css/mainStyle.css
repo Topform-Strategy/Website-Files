@@ -1,0 +1,243 @@
+    /* Add some padding on document's body to prevent the content
+    to go underneath the header and footer */
+    
+    @import url(https://fonts.googleapis.com/css?family=Tenor+Sans);  
+    @import url(https://fonts.googleapis.com/css?family=Farsan);  
+    @import url(https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap);    
+    @import url(https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap);
+
+    body{        
+        padding-top: 10px;
+        padding-bottom: 40px;
+        font-family: "Dosis", sans-serif;  
+        font-size: 24px;
+        color: rgb(77, 64, 117);
+        margin-left: 1%;
+        margin-right: 2%;
+    }
+    .container{
+        width: 100%;
+        margin: 0 auto; /* Center the DIV horizontally */
+
+    }
+    .fixed-header, .fixed-footer{
+        width: 98%;
+        align-items: center;
+        position: fixed;        
+        background-color: white;
+    }
+    .fixed-header{
+        top: 0;
+    }
+    .fixed-footer{
+        bottom: 0;
+        height: 40px;
+    }    
+
+    /* Some more styles to beutify this example */
+    nav a{
+        background-color: rgb(113, 147, 179);
+        text-decoration: none;
+        font-weight: bold; 
+        padding: 7px 25px;
+        display: inline-block;
+    }
+    .container p{
+        line-height: 240px; /* Create scrollbar to test positioning */
+    }
+
+    .normalDiv {
+        width: 100%;      
+        padding-top: 150px;
+        text-align: center;
+    }
+    .normalDivError {
+        width: 100%;      
+        padding-top: 150px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .twentyFour {
+        font-size: 24px;
+    }
+    .twentyBold {
+        font-size: 20px;
+        font-weight: bold;        
+    }
+    .twentyFourBold {
+        font-size: 24px;
+        font-weight: bold;        
+    }
+    .thirtySixQuote {
+        font-size: 36px;
+        font-family:Farsan , sans-serif;
+    }
+    .eighteen {
+        font-size: 18px;
+    }
+    .eighteenBold {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .thirtyBold {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .thirty {
+        font-size: 30px;
+    }
+    .thirtySix {
+        font-size: 36px;
+    }
+
+    .fortyFour{
+        font-size: 44px;
+        text-align: center;
+    }
+
+    .pageBkgnd {
+  
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover; 
+      }
+
+    .hoverlink {
+        float: right;
+        text-align: center;
+        width:100%;
+        a {
+          width: 100%;
+          float: left;
+          line-height: 50px;
+          text-decoration: none;
+          color: rgb(77, 64, 117);
+          font-size: 24px;          
+          text-align: center;
+              &:hover 
+              {
+                background-color: rgb(113, 147, 179);
+                border-color: rgb(77, 64, 117);
+                font-size: 24px;                             
+                border-style:solid;
+            }
+        }  
+      }
+
+    .hoverlinkInFooter {
+        float: right;
+        text-align: center;
+        width:100%;
+        a {
+          width: 100%;
+          float: left;
+          line-height: 30px;
+          text-decoration: none;
+          color: rgb(77, 64, 117);
+          border-style:solid;
+          font-size: 20px;                           
+          text-align: center;
+              &:hover 
+              {
+                background-color: rgb(113, 147, 179);
+                font-size: 20px;                 
+              }
+        }  
+    }
+
+    .hoverlinkInError {
+        float: right;
+        text-align: center;
+        width:100%;
+        a {
+          width: 100%;
+          float: left;
+          line-height: 50px;
+          text-decoration: none;
+          color: rgb(77, 64, 117);
+          border-style:outset;
+          font-size: 22px;
+          text-align: center;
+              &:hover 
+              {
+                background-color: rgb(113, 147, 179);
+                font-weight: bold;
+                font-size: 22px;                 
+              }
+        }  
+    }
+
+    .hoverlinkInContact {
+        float: right;
+        text-align: center;
+        width:100%;
+        a {
+          width: 100%;
+          float: left;
+          line-height: 30px;
+          text-decoration: none;
+          color: rgb(77, 64, 117);
+          border-style:solid;
+          font-size: 20px;                
+          text-align: center;
+              &:hover 
+              {
+                background-color: rgb(113, 147, 179);
+                font-weight: bold;
+                font-size: 20px;                 
+              }
+        }  
+    }
+
+
+    .miniBanner {
+        float: right;
+        text-align: center;
+        width:100%;
+        p {
+          width: 100%;
+          float: left;
+          line-height: 50px;
+          text-decoration: none;
+          background-color: rgb(113, 147, 179);
+          color: rgb(77, 64, 117);
+          border-style:solid;
+          text-align: center;
+          font-size: 30px; 
+          font-weight: bold;
+          font-style: italic;        
+    }
+}  
+    .microBanner {
+        p{
+        text-decoration: none;
+        background-color: rgb(113, 147, 179);
+        color: rgb(77, 64, 117);
+        border-style:solid;
+        text-align: center;
+        font-size: 30px; 
+        font-weight: bold;    
+        }
+    }
+
+    .servicesTable {
+        border: 5px solid rgb(77, 64, 117);
+        border-collapse: collapse;
+        
+    }
+
+    input {
+        border: 3px solid white; 
+        box-shadow: 
+        inset 0 0 8px  rgb(77, 64, 117),
+              0 0 16px rgb(77, 64, 117); 
+      padding: 15px;
+      background: rgba(255,255,255,0.5);
+      margin: 0 0 10px 0;
+      width: 80%;  
+    }
+    .introTable {
+       background: url("/images/navigate.png") ;
+       background-image: url("/images/navigate.png"); 
+       background-repeat: no-repeat;
+    }
